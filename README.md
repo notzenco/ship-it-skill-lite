@@ -87,7 +87,7 @@ The agent reads the checklist, opens your migrations, routes, and env names, and
 
 The free edition stops at the holes that leak data or charge the wrong amount. Pro adds the rest: policies that use `auth.uid()`, rate limits, subscription sync, Open Graph and canonicals, a Fix-It library for the usual deploy failures, a Node scanner, and a GitHub Actions workflow (`--ci`, SARIF).
 
-[Get Ship-It Pro](PRO_LINK)
+[Get Ship-It Pro](https://buy.stripe.com/9B6bJ22gNcVOc9Bdgof3a00)
 
 Pro installs over this skill at the same path (`ship-it`). Keep the free edition until you do.
 
