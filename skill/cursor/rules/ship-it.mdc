@@ -1,0 +1,15 @@
+---
+description: Run before launch on Next.js + Supabase + Stripe + Vercel apps. Use when the user says ship it, pre-launch, launch checklist, production readiness, or asks for an RLS, Stripe webhook, or SEO check.
+alwaysApply: false
+---
+
+# Ship-It (lite)
+
+When the user asks for a pre-launch audit, follow this rule. The deliverable is `SHIP-IT-REPORT.md`. This edition has the 15 checks in `.cursor/ship-it/checks.md`. Do not edit application code unless they ask.
+
+1. Audit the app root (the directory with `package.json` and `app/` or `src/app/`).
+2. Walk each check. Record file and line. Use the fix prompt from the check when it fails.
+3. Write the scorecard from `.cursor/ship-it/report-template.md`. Critical weight 8, high 4, medium 2, low 1.
+4. Reply with the verdict, the score, and the critical list. Do not print secret values.
+
+Not applicable means the integration is missing, not that the check was inconvenient.
